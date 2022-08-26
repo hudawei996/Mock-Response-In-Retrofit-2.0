@@ -1,0 +1,29 @@
+com/vavian/mockretrofitrequests/rest/service/IRestService.java
+ com.vavian.mockretrofitrequests.rest.service.IRestService
+com/vavian/mockretrofitrequests/rest/model/Teacher.java
+ com.vavian.mockretrofitrequests.rest.model.Teacher
+com/vavian/mockretrofitrequests/BuildConfig.java
+ com.vavian.mockretrofitrequests.BuildConfig
+com/vavian/mockretrofitrequests/R2.java
+ com.vavian.mockretrofitrequests.R2
+ com.vavian.mockretrofitrequests.R2$anim
+ com.vavian.mockretrofitrequests.R2$attr
+ com.vavian.mockretrofitrequests.R2$bool
+ com.vavian.mockretrofitrequests.R2$color
+ com.vavian.mockretrofitrequests.R2$dimen
+ com.vavian.mockretrofitrequests.R2$drawable
+ com.vavian.mockretrofitrequests.R2$id
+ com.vavian.mockretrofitrequests.R2$integer
+ com.vavian.mockretrofitrequests.R2$layout
+ com.vavian.mockretrofitrequests.R2$menu
+ com.vavian.mockretrofitrequests.R2$plurals
+ com.vavian.mockretrofitrequests.R2$string
+ com.vavian.mockretrofitrequests.R2$style
+ com.vavian.mockretrofitrequests.R2$styleable
+com/vavian/mockretrofitrequests/rest/service/FakeInterceptor.java
+ com.vavian.mockretrofitrequests.rest.service.FakeInterceptor
+com/vavian/mockretrofitrequests/ui/activities/MainActivity.java
+ com.vavian.mockretrofitrequests.ui.activities.MainActivity
+ com.vavian.mockretrofitrequests.ui.activities.MainActivity$1
+com/vavian/mockretrofitrequests/rest/service/RestClient.java
+ com.vavian.mockretrofitrequests.rest.service.RestClient
