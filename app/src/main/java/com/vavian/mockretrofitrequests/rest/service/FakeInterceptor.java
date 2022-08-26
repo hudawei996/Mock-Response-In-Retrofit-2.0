@@ -56,9 +56,11 @@ public class FakeInterceptor implements Interceptor {
             final String query = uri.getQuery();
             // Parse the Query String.
             final String[] parsedQuery = query.split("=");
+            //如果：id = 1
             if(parsedQuery[0].equalsIgnoreCase("id") && parsedQuery[1].equalsIgnoreCase("1")) {
                 responseString = TEACHER_ID_1;
             }
+            //如果：id = 2
             else if(parsedQuery[0].equalsIgnoreCase("id") && parsedQuery[1].equalsIgnoreCase("2")){
                 responseString = TEACHER_ID_2;
             }
