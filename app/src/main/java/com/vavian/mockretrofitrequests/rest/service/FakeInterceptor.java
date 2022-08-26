@@ -24,7 +24,7 @@ import com.squareup.okhttp.MediaType;
 import com.squareup.okhttp.Protocol;
 import com.squareup.okhttp.Response;
 import com.squareup.okhttp.ResponseBody;
-import com.vavian.mockretrofitrequests.BuildConfig;
+//import com.vavian.mockretrofitrequests.BuildConfig;
 
 import java.io.IOException;
 import java.net.URI;
@@ -44,7 +44,8 @@ public class FakeInterceptor implements Interceptor {
     @Override
     public Response intercept(Chain chain) throws IOException {
         Response response = null;
-        if(BuildConfig.DEBUG) {
+//        if(BuildConfig.DEBUG) {
+        if(true) {
             Log.d(TAG, "---- DEBUG --- DEBUG -- DEBUG - DEBUG -- DEBUG --- DEBUG ----");
             Log.d(TAG, "----                FAKE SERVER RESPONSES                ----");
             String responseString;

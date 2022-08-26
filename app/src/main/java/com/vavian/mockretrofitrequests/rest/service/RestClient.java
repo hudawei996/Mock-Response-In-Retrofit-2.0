@@ -16,17 +16,22 @@
 
 package com.vavian.mockretrofitrequests.rest.service;
 
-import android.util.Log;
-
+//import android.util.Log;
+//
 import com.squareup.okhttp.Interceptor;
 import com.squareup.okhttp.OkHttpClient;
-import com.squareup.okhttp.Response;
+//import com.squareup.okhttp.Response;
 
-import java.io.IOException;
-import java.net.URI;
+//import java.io.IOException;
+//import java.net.URI;
 
 import retrofit.JacksonConverterFactory;
 import retrofit.Retrofit;
+
+//import okhttp3.Interceptor;
+//import okhttp3.OkHttpClient;
+//import retrofit.JacksonConverterFactory;
+//import retrofit2.Retrofit;
 
 /**
  *
@@ -38,6 +43,7 @@ public final class RestClient {
     public static IRestService getClient() {
         if(mRestService == null) {
             final OkHttpClient client = new OkHttpClient();
+
             client.interceptors().add(new FakeInterceptor());
 
             final Retrofit retrofit = new Retrofit.Builder()

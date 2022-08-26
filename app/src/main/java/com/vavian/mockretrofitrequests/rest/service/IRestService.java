@@ -18,6 +18,10 @@ package com.vavian.mockretrofitrequests.rest.service;
 
 import com.vavian.mockretrofitrequests.rest.model.Teacher;
 
+//import retrofit2.Call;
+//import retrofit2.http.GET;
+//import retrofit2.http.Query;
+
 import retrofit.Call;
 import retrofit.http.GET;
 import retrofit.http.Query;

@@ -1,10 +1,13 @@
 package com.vavian.mockretrofitrequests.ui.activities;
 
-import android.support.v7.app.AppCompatActivity;
+//import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
+
+
+import androidx.appcompat.app.AppCompatActivity;
 
 import com.vavian.mockretrofitrequests.R;
 import com.vavian.mockretrofitrequests.rest.model.Teacher;
@@ -12,9 +15,13 @@ import com.vavian.mockretrofitrequests.rest.service.RestClient;
 
 import java.io.IOException;
 
-import butterknife.Bind;
+//import butterknife.Bind;
 import butterknife.ButterKnife;
 import butterknife.OnClick;
+//import retrofit2.Call;
+//import retrofit2.Callback;
+//import retrofit2.Response;
+//import retrofit2.Retrofit;
 import retrofit.Call;
 import retrofit.Callback;
 import retrofit.Response;
@@ -36,7 +43,9 @@ public class MainActivity extends AppCompatActivity {
     public void getTeacher(View view) {
 
         Call<Teacher> teacherCall = RestClient.getClient().getTeacherById("1");
+
         teacherCall.enqueue(new Callback<Teacher>() {
+
             @Override
             public void onResponse(Response<Teacher> response, Retrofit retrofit) {
                 Teacher teacher = response.body();
